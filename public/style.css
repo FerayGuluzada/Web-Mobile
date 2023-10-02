@@ -1,0 +1,28 @@
+hr {
+    width: 60%;
+    height: 2px;
+}
+
+h3 {
+    color: pink;
+}
+
+body {
+    background-color: #f7faa2;
+}
+
+p {
+    color: violet;
+}
+
+/* #email {
+    color: coral;
+} */
+
+.info {
+    color: cornflowerblue;
+}
+
+li {
+    list-style-type: none;
+}

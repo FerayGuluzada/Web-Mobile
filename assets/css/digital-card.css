@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #F21A6B ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header a{
+    font-size: 18px;
+    color:white;
+    font-family: Jost;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.home{
+    font-weight: 600;
+    
+}
+
+.about{
+    text-decoration: underline;
+}

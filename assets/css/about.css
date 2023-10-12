@@ -14,10 +14,14 @@ header{
     align-items: center;
     flex-direction: row;
     gap: 20px;
+}
+
+header a{
     font-size: 18px;
     color:white;
     font-family: Jost;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .home{

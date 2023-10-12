@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #F21A6B ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+    color:white;
+    font-family: Jost;
+    font-weight: 300;
+}
+
+.home{
+    font-weight: 600;
+    
+}
+
+.about{
+    text-decoration: underline;
+}
+
+.title{
+    color:#F21A6B;
+    font-family: Jost;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0px 30px;
+}
+
+.par{
+    color: black;
+    font-size: 18px;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.white-box{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    bottom: 280px;
+}

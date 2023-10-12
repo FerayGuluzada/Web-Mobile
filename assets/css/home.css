@@ -35,6 +35,8 @@ main{
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    font-family: Gotham;
+    font-size: 15px;
 }
 
 .box{
@@ -42,12 +44,12 @@ main{
     width: 800px;
     background-color: aliceblue;
     padding: 30px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .pic{
     width: 200px;
-    height: 200px;
+    height: 210px;
     background-size: cover;
 }
 

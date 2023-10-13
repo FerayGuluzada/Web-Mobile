@@ -44,13 +44,7 @@ header a{
 
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 30px;
-  }
-  
+
 
 
 
@@ -61,7 +55,7 @@ label[for="fname"], label[for="lname"],label[for="country"], label[for="subject"
     margin-right: 10px;
   }
   
-  #fname, #lname, #country, #subject{
+  .thing{
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -70,15 +64,23 @@ label[for="fname"], label[for="lname"],label[for="country"], label[for="subject"
     justify-content: flex-start;
   }
 
-  #text {
+  .thing:focus::placeholder{
+     color:transparent;
+  }
+
+  .text {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
     width: 200px;
     height: 200px; 
     display: flex;
-    justify-content: flex-start;
+    align-items: start;
+    justify-content: start;
   }
+
+
+
   #fname::placeholder, #lname::placeholder, #country::placeholder, #subject::placeholder,#text::placeholder {
     color: #999;
     font-family: Jost;
@@ -88,4 +90,13 @@ label[for="fname"], label[for="lname"],label[for="country"], label[for="subject"
   #fname:required {
     border-color: #ff0000;
   }
-  
+
+  main {
+   display:flex;
+   flex-direction: row;
+   width:100%;
+   padding: 0px 30px;
+   gap: 250px;
+}
+
+

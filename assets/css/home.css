@@ -42,7 +42,7 @@ main{
 .box{
     height: 300px;
     width: 800px;
-    background-color: aliceblue;
+    background-color: white;
     padding: 30px;
     border: 1px solid black;
     border-radius: 8px
@@ -50,9 +50,10 @@ main{
 }
 
 .pic{
-    width: 200px;
+    width: 800px;
     height: 210px;
     background-size: cover;
+    border-radius: 7%;
 }
 
 .box-content{
@@ -77,4 +78,9 @@ main{
 .decoration{
     text-decoration: none;
     color: black;
+}
+
+h3{
+    color: #F21A6B;
+    font-family: ;
 }

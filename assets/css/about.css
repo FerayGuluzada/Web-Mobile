@@ -72,7 +72,10 @@ main{
 
 
 .table{
-    width: 100%;
+    width: 70%;
+    font-family: Jost;
+    border: 2px solid;
+    border-collapse: collapse;
     
 }
 
@@ -86,6 +89,15 @@ td{
 }
 
 .table-container {
-    max-height: 400px; 
-        overflow: auto; 
+    max-height: 200px; 
+    overflow: auto; 
+  }
+
+  .video{
+    margin-left: 25px;
+  }
+
+  .highlight{
+    font-weight: 600;
+    color:#F21A6B;
   }

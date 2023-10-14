@@ -48,7 +48,7 @@ header a{
 
 
 
-label[for="fname"], label[for="lname"],label[for="country"], label[for="subject"],label[for="text"] {
+.label {
     font-weight: medium;
     font-family: Jost;
     color: #333;
@@ -99,4 +99,7 @@ label[for="fname"], label[for="lname"],label[for="country"], label[for="subject"
    gap: 250px;
 }
 
+.part-B{
+
+}
 

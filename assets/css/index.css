@@ -54,7 +54,7 @@ main{
     width: 800px;
     height: 180px;
     background-size: cover;
-    border-radius: 7%;
+    border-radius: 4%;
 }
 
 .box-content{
@@ -66,11 +66,11 @@ main{
     
 }
 
-.box:hover{
+/* .box:hover{
     height: 300px;
     width: 900px;
     background-color: pink;
-}
+} */
 
 .cursor{
     cursor: pointer;
@@ -86,4 +86,13 @@ h3{
     font-family: Jost;
     font-weight: 800;
     font-size: 24px;
+    
+}
+
+.problematic{
+    margin-top:-13px;
+}
+
+.highlight{
+    color:#F21A6B;
 }

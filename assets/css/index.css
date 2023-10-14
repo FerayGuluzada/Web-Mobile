@@ -52,7 +52,7 @@ main{
 
 .pic{
     width: 800px;
-    height: 210px;
+    height: 180px;
     background-size: cover;
     border-radius: 7%;
 }
@@ -85,4 +85,5 @@ h3{
     color: #F21A6B;
     font-family: Jost;
     font-weight: 800;
+    font-size: 24px;
 }

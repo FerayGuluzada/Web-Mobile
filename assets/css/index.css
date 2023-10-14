@@ -66,11 +66,11 @@ main{
     
 }
 
-/* .box:hover{
+.box:hover{
     height: 300px;
     width: 900px;
-    background-color: pink;
-} */
+    
+}
 
 .cursor{
     cursor: pointer;

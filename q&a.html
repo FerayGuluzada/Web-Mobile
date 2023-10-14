@@ -42,6 +42,8 @@
        
             <label for="text" class="label">Text:</label>
             <input type="text" class="text" name="text"  /> <br>
+
+            <input type="submit" value="Submit" class="label">
         </div>
     
     
@@ -55,14 +57,17 @@
 
         <fieldset>
             <legend class="label">Choose your gender</legend>
-            <input type="radio" id="male" name="gender" value="MALE"/> 
+
+            <input type="radio"  name="gender" value="MALE"/>
             <label for="male" class="label">Male</label> <br>
-            <input type="radio" id="female" name="gender" value="FEMALE"/>
+
+            <input type="radio"  name="gender" value="FEMALE"/>
             <label for="female" class="label">Female</label> <br>
-            <input type="radio" id="other" name="gender" value="OTHER"/>
+
+            <input type="radio"  name="gender" value="OTHER"/>
             <label for="other" class="label">Other</label> <br>
         </fieldset>
-
+<br>
         <fieldset>
             <legend class="label">Select your favorite fields</legend>
             <input type="checkbox"  name="field" value="AI" checked>
@@ -74,25 +79,42 @@
             <input type="checkbox"  name="field" value="IoT">
             <label for="fields_iot" class="label">Internet of Things</label> <br>
 
-            <input type="checkbox"  name="field" value="">
-            <label for="fields_iot" class="label">Data Science</label> <br>
-        </fieldset>
+            <input type="checkbox"  name="field" value="DataScience">
+            <label for="fields_data_science" class="label">Data Science</label> <br>
 
+            <input type="checkbox"  name="field" value="Engineering">
+            <label for="fields_engineering" class="label">Engineering</label> <br>
+        </fieldset>
+<br>
         <fieldset>
-            <legend class="label">Select your age</legend>
-            <input type="checkbox"  name="field" value="AI" checked>
-            <label for="fields_ai" class="label">Artificial Intelligence</label> <br>
+            <legend class="label">Choose your age</legend>
 
-            <input type="checkbox"  name="field" value="CompGraph">
-            <label for="fields_comp_graph" class="label">Computer Graphics</label> <br>
+            <input type="radio" id="male" name="age" value="under 12"/> 
+            <label for="under_12" class="label">0-12</label> <br>
 
-            <input type="checkbox"  name="field" value="IoT">
-            <label for="fields_iot" class="label">Internet of Things</label> <br>
+            <input type="radio" id="female" name="age" value="12-18"/>
+            <label for="12-18" class="label">12-18</label> <br>
+
+            <input type="radio" id="other" name="age" value="18-35"/>
+            <label for="18-30" class="label">18-30</label> <br>
+
+            <input type="radio" id="other" name="age" value="35-55"/>
+            <label for="30-50" class="label">30-50</label> <br>
+
+            <input type="radio" id="other" name="age" value="over 60"/>
+            <label for="over_60" class="label">60<</label> <br>
+
+            
         </fieldset>
+<br>
+        <input type="submit" value="Submit" class="label" id="submit">
 
-        <input type="submit" value="Submit" class="label">
-        </form>
+        <div class="title-2">
+            <h1>thank you.</h1>   
         </div>
+        </div>
+
+        
         </main>
     
 </body>

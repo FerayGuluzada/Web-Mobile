@@ -81,11 +81,6 @@ header a{
 
 
 
-  #fname::placeholder, #lname::placeholder, #country::placeholder, #subject::placeholder,#text::placeholder {
-    color: #999;
-    font-family: Jost;
-    font-weight: light;
-  }
   
   #fname:required {
     border-color: #ff0000;
@@ -99,7 +94,12 @@ header a{
    gap: 250px;
 }
 
-.part-B{
-
+.title-2{
+    color:#F21A6B;
+    font-family: Jost;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 

@@ -1,5 +1,6 @@
 body{
-    background-color: #F21A6B;
+    
+    background-image: url('../images/texture.png');
     padding:0;
     margin:0;
     box-sizing: border-box;
@@ -16,7 +17,7 @@ header{
 .title{
     font-size: 30px;
     font-family: Jost;
-    font-weight: 300;
+    font-weight: 500;
     color: white;
 
 }
@@ -82,5 +83,6 @@ main{
 
 h3{
     color: #F21A6B;
-    font-family: ;
+    font-family: Jost;
+    font-weight: 800;
 }

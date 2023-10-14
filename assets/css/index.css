@@ -41,6 +41,7 @@ main{
 }
 
 .box{
+    font-family: Jost;
     height: 300px;
     width: 800px;
     background-color: white;
@@ -58,6 +59,7 @@ main{
 }
 
 .box-content{
+    font-family: Jost;
     display: flex;
     flex-direction: row;
     gap:20px;
